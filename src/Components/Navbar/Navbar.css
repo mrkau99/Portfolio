@@ -1,0 +1,24 @@
+/* Menu Link */
+
+nav a.nav-link {
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav li a {
+  margin: 0 0.75rem;
+  color: #fff !important;
+  border-top: 0.1875rem solid rgba(255, 255, 255, 0);
+}
+
+.navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid #f9ab00;
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid #f9ab00;
+}
