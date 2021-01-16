@@ -1,0 +1,64 @@
+.header-wraper {
+  position: relative;
+  background: url(../../background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed" sans-serif;
+  z-index: 1;
+}
+
+.main-info h1 {
+  color: orange;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768) {
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: #fff;
+}
+
+@media (max-width: 768) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+}
+
+.btn-main-offer {
+  border: 1px solid #ef4035;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: #fff;
+  margin: 2rem;
+  text-decoration: none;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: #f33501;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
